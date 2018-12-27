@@ -85,7 +85,7 @@ self.login = [TYRZLogin loginWithAppId:APPID appKey:APPKEY];
 
 ### 2.1.1. 方法描述
 
-请求校验凭证`token`，凭token调用本机号码校验接口。接口文档详见《平台接口文档》</br>
+请求校验凭证`token`，凭token调用本机号码校验接口。接口文档详见《移动认证服务端接口文档》</br>
 
 </br>
 
