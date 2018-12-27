@@ -35,11 +35,11 @@ sdk技术问题沟通QQ群：609994083
 
 本节内容主要面向新接入统一认证的开发者，介绍快速集成统一认证的基本服务的方法。
 
-### 1.3.1. 统一认证登录流程
+### 1.3.1. 统一认证本机号码校验流程
 
 ![](image/mobile_auth.png)
 
-由流程图可知，业务客户端集成SDK后只需要完成2步集成实现登录
+由流程图可知，业务客户端集成SDK后只需要完成2步集成实现校验
 
 1. 调用SDK方法来获得token；
 2. 携带token通过业务服务端到认证服务端的本机号码校验接口，进行号码校验
@@ -80,7 +80,7 @@ self.login = [TYRZLogin loginWithAppId:APPID appKey:APPKEY];
 
 <div STYLE="page-break-after: always;"></div>
 
-#2. SDK方法说明
+# 2. SDK方法说明
 ## 2.1. 获取校验凭证
 
 ### 2.1.1. 方法描述
